@@ -9,10 +9,10 @@
 ### Pembagian Tugas
 **HTML Files:**
 - Home `index.html`: Kolaborasi
-- About `about.html`: Muhammad Awwab
-- Contact `contact.html`: Adit Nurdiansyah
+- Adit Nurdiansyah `an.html`: Adit Nurdiansyah
+- Muhammad Awwab `ma.html`: Muhammad Awwab
 
 **CSS Files:**
 - Home `style.css`: Kolaborasi
-- About `about.css`: Muhammad Awwab
-- Contact `contact.css`: Adit Nurdiansyah
+- Adit Nurdiansyah `an.css`: Adit Nurdiansyah
+- Muhammad Awwab `ma.css`: Muhammad Awwab
