@@ -2,7 +2,7 @@
 
 ## Pemrograman Web
 
-### Anggota Kelompok
+### Kelompok 5
 - Adit Nurdiansyah (3337250023)
 - Muhammad Awwab (3337250137)
 
