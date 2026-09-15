@@ -31,12 +31,14 @@ nav ul li a {
     text-decoration: none;
     color: #222222;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
     color: #777777;
+    text-decoration: underline;
+    text-underline-offset: 2px;
 }
 
 main {
@@ -122,6 +124,7 @@ main {
 .personal-information ul li a:hover {
     color: #000000;
     text-decoration: underline;
+    text-underline-offset: 2px;
 }
 
 .profile-picture {
@@ -158,6 +161,7 @@ main {
 .contact ul li a:hover {
     color: #000000;
     text-decoration: underline;
+    text-underline-offset: 2px;
 }
 
 .contact ul li a .contact-icons {
@@ -186,7 +190,7 @@ footer p {
     }
 
     nav ul {
-        gap: 20px;
+        gap: 30px;
         flex-wrap: wrap;
     }
 
@@ -210,8 +214,8 @@ footer p {
     }
 
     .profile-picture img {
-        width: 180px;
-        height: 180px;
+        width: 200px;
+        height: 300px;
     }
 
     .personal-information,
