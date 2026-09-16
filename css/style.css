@@ -111,7 +111,7 @@ section {
 .course-information {
     text-align: center;
     padding-bottom: 35px;
-    border-bottom: 1px solid #eeeeee;
+    border-bottom: 1px solid #ffffff;
 }
 
 .course-information h2 {
@@ -167,9 +167,56 @@ section {
 
 .material-introduction p {
     font-size: 14px;
-    margin-top: 20px;
+    text-align: justify;
     color: #444444;
+    line-height: 1.7;
+    margin-bottom: 45px;
 }
+
+.group-profile {
+    text-align: center;
+}
+
+.group-profile h2 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 45px;
+}
+
+.profiles {
+    display: flex;
+
+    justify-content: space-evenly;
+    font-size: 14px;
+    color: #444444;
+    line-height: 1.7;
+}
+
+.profiles p a {
+    color: #444444;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.profiles p a:hover {
+    color: #000000;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.profiles img {
+    width: 200px;
+    height: 267px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 2px solid #444444;
+    transition: color 0.3s ease;
+}
+
+.profiles img:hover {
+    border: 2px solid black;
+}
+
 footer {
     margin-top: auto;
     width: 100%;
