@@ -1,30 +1,30 @@
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  color: black;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: black;
 
-  min-height: 100vh;
+    min-height: 100vh;
 
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar {
-  height: 88px;
+    height: 80px;
 
-  border-bottom: 1px solid #999;
+    border-bottom: 2px solid #999;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  gap: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
 }
 
 .navbar a {
     text-decoration: none;
     color: black;
     font-size: 14px;
+    padding: 10px 10px;
 }
 
 .main {
@@ -34,26 +34,25 @@ body {
     align-items: center;
     justify-content: center;
     gap: 150px;
-  }
+}
 
 .foto img {
 
-  width: 300px;
-  height: 300px;
+    width: 300px;
+    height: 300px;
 
-  object-fit: cover;
+    object-fit: cover;
+    border-radius: 50%;
 
-  border-radius: 50%;
 }
 
 .info {
-    width: 600px;
-    padding: 30px;
+    width: 443px;
 }
 
 .halo {
-  font-size: 18px;
-  margin: 0 0 5px 0;
+    font-size: 18px;
+    margin: 0 0 0 0;
 }
 
 h1 {
@@ -61,31 +60,30 @@ h1 {
     margin: 0 0 50px 0;
 }
 
-.biodata p {
+.data-diri p {
     font-size: 24px;
     margin: 0;
 }
 
-.social {
+.kontak {
     display: flex;
-
     justify-content: space-between;
-
-    margin-top: 65px;
-
-    width: 590px;
+    margin-top: 60px;
+    width: 100%;
 }
 
-.social a {
+.kontak a {
     text-decoration: none;
     color: black;
     font-size: 18px;
+
+    display: flex;
 }
 
 footer {
-    height: 88px;
+    height: 80px;
 
-    border-top: 1px solid #999;
+    border-top: 2px solid #999;
 
     display: flex;
     justify-content: center;
