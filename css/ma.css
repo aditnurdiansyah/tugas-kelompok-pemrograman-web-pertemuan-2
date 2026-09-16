@@ -27,6 +27,10 @@ body {
     padding: 10px 10px;
 }
 
+.navbar a:hover {
+    color: #444444;
+}
+
 .main {
     flex: 1;
 
@@ -73,11 +77,17 @@ h1 {
 }
 
 .kontak a {
+    display: flex;
+
     text-decoration: none;
     color: black;
     font-size: 18px;
+    align-items: center;
+    gap: 5px;
+}
 
-    display: flex;
+.kontak a:hover {
+    color: #444444;
 }
 
 footer {
