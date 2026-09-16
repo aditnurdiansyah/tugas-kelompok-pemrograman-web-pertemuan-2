@@ -159,6 +159,17 @@ section {
     text-underline-offset: 2px;
 }
 
+.material-introduction h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.material-introduction p {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #444444;
+}
 footer {
     margin-top: auto;
     width: 100%;
