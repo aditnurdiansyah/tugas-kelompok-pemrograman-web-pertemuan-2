@@ -56,7 +56,9 @@ section {
     margin-bottom: 45px;
 }
 
-.learning-material {
+.learning-material,
+.material-introduction,
+.group-profile {
     margin-bottom: 50px;
 }
 
@@ -126,7 +128,8 @@ section {
     line-height: 1.7;
 }
 
-.learning-material h2 {
+.learning-material h2,
+.material-introduction h2 {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 20px;
@@ -159,18 +162,11 @@ section {
     text-underline-offset: 2px;
 }
 
-.material-introduction h2 {
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 20px;
-}
-
 .material-introduction p {
     font-size: 14px;
     text-align: justify;
     color: #444444;
     line-height: 1.7;
-    margin-bottom: 45px;
 }
 
 .group-profile {
@@ -180,41 +176,49 @@ section {
 .group-profile h2 {
     font-size: 28px;
     font-weight: 500;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
 }
 
 .profiles {
     display: flex;
-
     justify-content: space-evenly;
     font-size: 14px;
     color: #444444;
     line-height: 1.7;
 }
 
-.profiles p a {
+.profiles a {
     color: #444444;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-.profiles p a:hover {
+.profiles a:hover {
     color: #000000;
     text-decoration: underline;
     text-underline-offset: 2px;
 }
 
 .profiles img {
-    width: 200px;
-    height: 267px;
+    width: 300px;
+    height: 400px;
+    margin: 0 auto 25px;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 10px;
     border: 2px solid #444444;
     transition: color 0.3s ease;
 }
 
 .profiles img:hover {
-    border: 2px solid black;
+    border: 2px solid #000000;
+}
+
+.profiles p {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #444444;
+    line-height: 1.6;
+    margin-bottom: 8px;
 }
 
 footer {
@@ -253,7 +257,13 @@ footer p {
         font-size: 30px;
     }
 
-    .course-information h2 {
+    .course-information h2,
+    .group-profile h2 {
         font-size: 24px;
+    }
+
+    .group-profile .profiles {
+        flex-direction: column;
+        gap: 30px;
     }
 }
