@@ -1,34 +1,95 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #ffffff;
-    color: #222222;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: black;
+
     min-height: 100vh;
+
     display: flex;
     flex-direction: column;
 }
 
-nav {
-    width: 100%;
-    padding: 20px 60px;
-    border-bottom: 1px solid #000000;
-}
+.navbar {
+    height: 80px;
 
-nav ul {
-    list-style: none;
+    border-bottom: 2px solid #999;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 48px;
 }
 
-nav ul li a {
-    color: #222222;
+.navbar a {
+    text-decoration: none;
+    color: black;
     font-size: 14px;
-    font-weight: 600;
+    padding: 10px 10px;
+}
+
+.main {
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.foto img {
+
+    width: 300px;
+    height: 300px;
+
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.info {
+    width: 443px;
+}
+
+.halo {
+    font-size: 18px;
+    margin: 0 0 0 0;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0 0 50px 0;
+}
+
+.data-diri p {
+    font-size: 24px;
+    margin: 0;
+}
+
+.kontak {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.kontak a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+
+    display: flex;
+}
+
+footer {
+    height: 80px;
+
+    border-top: 2px solid #999;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-size: 14px;
 }
