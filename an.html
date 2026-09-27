@@ -1,53 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adit Nurdiansyah</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/an.css">
 </head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="an.html">Adit Nurdiansyah</a></li>
-            <li><a href="ma.html">Muhammad Awwab</a></li>
-        </ul>
+<body class="d-flex flex-column min-vh-100 bg-white text-dark">
+
+    <!-- Navbar Bootstrap -->
+    <nav class="navbar navbar-expand-md navbar-light bg-white border-bottom py-3 px-4 px-md-5">
+        <div class="container-fluid justify-content-end p-0">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav gap-2 gap-md-4 align-items-end text-end mt-3 mt-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-semibold" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-semibold active" aria-current="page" href="an.html">Adit Nurdiansyah</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-semibold" href="ma.html">Muhammad Awwab</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
-    <main>
-        <section class="header-title">
-            <h1>Adit Nurdiansyah</h1>
-            <p>Web Development Enthusiast</p>
-        </section>
+    <!-- Konten Utama (Grid Bootstrap) -->
+    <main class="container my-auto py-5 px-4 px-md-3">
+        <!-- Section Header Title -->
+        <div class="row mb-5 text-center">
+            <div class="col-12">
+                <h1 class="display-5 fw-normal mb-2">Adit Nurdiansyah</h1>
+                <p class="text-secondary small mb-0">Web Development Enthusiast</p>
+            </div>
+        </div>
 
-        <section class="personal-information">
-            <h2>Data Diri</h2>
-            <ul>
-                <li>Adit Nurdiansyah</li>
-                <li>3337250023</li>
-                <li><a href="https://untirta.ac.id/" target="_blank">Universitas Sultan Ageng Tirtayasa</a></li>
-                <li><a href="https://ft.untirta.ac.id/" target="_blank">Fakultas Teknik</a></li>
-                <li><a href="https://informatika.ft.untirta.ac.id/" target="_blank">Informatika</a></li>
-            </ul>
-        </section>
+        <!-- Section Tiga Kolom (Info, Foto, Kontak) -->
+        <div class="row g-4 g-lg-5 align-items-center text-center text-md-start">
+            <!-- Data Diri -->
+            <section class="col-12 col-md-4 order-2 order-md-1">
+                <h2 class="h5 fw-normal mb-4">Data Diri</h2>
+                <ul class="list-unstyled mb-0">
+                    <li class="text-secondary mb-3">Adit Nurdiansyah</li>
+                    <li class="text-secondary mb-3">3337250023</li>
+                    <li class="mb-3">
+                        <a href="https://untirta.ac.id/" target="_blank" class="text-secondary text-decoration-none custom-link">Universitas Sultan Ageng Tirtayasa</a>
+                    </li>
+                    <li class="mb-3">
+                        <a href="https://ft.untirta.ac.id/" target="_blank" class="text-secondary text-decoration-none custom-link">Fakultas Teknik</a>
+                    </li>
+                    <li>
+                        <a href="https://informatika.ft.untirta.ac.id/" target="_blank" class="text-secondary text-decoration-none custom-link">Informatika</a>
+                    </li>
+                </ul>
+            </section>
 
-        <section class="profile-picture">
-            <img src="/assets/profile-pictures/profile-picture-aditnurdiansyah.png" alt="Adit Nurdiansyah">
-        </section>
+            <!-- Profile Picture -->
+            <section class="col-12 col-md-4 order-1 order-md-2 d-flex justify-content-center">
+                <div class="profile-img-wrapper">
+                    <img src="/assets/profile-pictures/profile-picture-aditnurdiansyah.png" alt="Adit Nurdiansyah" class="img-fluid rounded border border-light-subtle shadow-sm">
+                </div>
+            </section>
 
-        <section class="contact">
-            <h2>Kontak</h2>
-            <ul>
-                <li><a href="mailto:aditnurdiansyah09@gmail.com"><img class="contact-icons" src="/assets/icons/email.png" alt="Email Icons">Email</a></li>
-                <li><a href="https://www.linkedin.com/in/aditnurdiansyah/" target="_blank"><img class="contact-icons" src="/assets/icons/linkedin.png" alt="LinkedIn Icons">LinkedIn</a></li>
-                <li><a href="https://github.com/aditnurdiansyah" target="_blank"><img class="contact-icons" src="/assets/icons/github.png" alt="GitHub Icons">GitHub</a></li>
-            </ul>
-        </section>
+            <!-- Kontak -->
+            <section class="col-12 col-md-4 order-3">
+                <h2 class="h5 fw-normal mb-4">Kontak</h2>
+                <ul class="list-unstyled mb-0">
+                    <li class="mb-3">
+                        <a href="mailto:aditnurdiansyah09@gmail.com" class="text-secondary text-decoration-none custom-link d-inline-flex align-items-center">
+                            <img class="contact-icon me-2" src="/assets/icons/email.png" alt="Email Icons">Email
+                        </a>
+                    </li>
+                    <li class="mb-3">
+                        <a href="https://www.linkedin.com/in/aditnurdiansyah/" target="_blank" class="text-secondary text-decoration-none custom-link d-inline-flex align-items-center">
+                            <img class="contact-icon me-2" src="/assets/icons/linkedin.png" alt="LinkedIn Icons">LinkedIn
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/aditnurdiansyah" target="_blank" class="text-secondary text-decoration-none custom-link d-inline-flex align-items-center">
+                            <img class="contact-icon me-2" src="/assets/icons/github.png" alt="GitHub Icons">GitHub
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </div>
     </main>
 
-    <footer>
-        <p>&copy; 2026 Adit Nurdiansyah. All rights reserved.</p>
+    <!-- Footer Bootstrap -->
+    <footer class="mt-auto py-3 border-top text-center">
+        <p class="text-muted small mb-0">&copy; 2026 Adit Nurdiansyah. All rights reserved.</p>
     </footer>
+
+    <!-- Bootstrap JS Bundle CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
