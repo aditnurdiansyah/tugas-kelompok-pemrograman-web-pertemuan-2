@@ -13,31 +13,15 @@ body {
     flex-direction: column;
 }
 
-nav {
-    width: 100%;
-    padding: 20px 60px;
-    border-bottom: 1px solid #eeeeee;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #222222;
+.navbar-nav .nav-link {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;
-    font-weight: 600;
     transition: color 0.3s ease;
 }
 
-nav ul li a:hover {
-    color: #777777;
-    text-decoration: underline;
+.navbar-nav .nav-link:hover {
+    color: #000000 !important;
+    text-decoration: underline !important;
     text-underline-offset: 2px;
 }
 
@@ -235,15 +219,6 @@ footer p {
 }
 
 @media (max-width: 768px) {
-    nav {
-        padding: 20px;
-    }
-
-    nav ul {
-        gap: 20px;
-        flex-wrap: wrap;
-    }
-
     main {
         padding: 40px 25px;
     }
@@ -262,8 +237,30 @@ footer p {
         font-size: 24px;
     }
 
-    .group-profile .profiles {
+    .learning-material, .material-introduction {
+        text-align: center;
+    }
+    .group-profile {
+        padding: 20px;
+    }
+
+    .profiles {
         flex-direction: column;
-        gap: 30px;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .profile-adit,
+    .profile-awwab {
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+    }
+
+    .profile-adit img,
+    .profile-awwab img {
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
     }
 }
