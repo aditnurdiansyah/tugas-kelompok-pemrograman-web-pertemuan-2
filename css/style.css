@@ -262,6 +262,9 @@ footer p {
         font-size: 24px;
     }
 
+    .learning-material, .material-introduction {
+        text-align: center;
+    }
     .group-profile {
         padding: 20px;
     }
