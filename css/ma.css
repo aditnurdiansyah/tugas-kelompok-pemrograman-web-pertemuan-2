@@ -1,34 +1,22 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
     color: black;
-
     min-height: 100vh;
 
     display: flex;
     flex-direction: column;
+    overflow-y: scroll;
 }
 
-nav {
-    height: 80px;
-
-    border-bottom: 2px solid #999;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 48px;
-}
-
-nav a {
-    text-decoration: none;
-    color: black;
+.navbar-nav .nav-link {
     font-size: 14px;
-    padding: 10px 10px;
+    transition: color 0.3s ease;
 }
 
-nav a:hover {
-    color: #444444;
+.navbar-nav .nav-link:hover {
+    color: #000000 !important;
+    text-decoration: underline !important;
+    text-underline-offset: 2px;
 }
 
 main {
@@ -56,7 +44,7 @@ main {
 
 .halo {
     font-size: 18px;
-    margin: 0 0 0 0;
+    margin: 0;
 }
 
 h1 {
@@ -90,6 +78,11 @@ h1 {
     color: #444444;
 }
 
+.contact img {
+    width: 18px;
+    height: 18px
+}
+
 footer {
     margin-top: auto;
     width: 100%;
@@ -104,18 +97,6 @@ footer p {
 }
 
 @media (max-width: 768px) {
-    nav {
-        height: auto;
-        padding: 15px 0;
-        gap: 15px;
-        flex-wrap: wrap;
-    }
-
-    nav a {
-        font-size: 13px;
-        padding: 8px;
-    }
-
     main {
         flex-direction: column;
         gap: 40px;

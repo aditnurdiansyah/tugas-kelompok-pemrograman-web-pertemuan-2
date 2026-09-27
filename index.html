@@ -1,18 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="an.html">Adit Nurdiansyah</a></li>
-            <li><a href="ma.html">Muhammad Awwab</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-md navbar-light bg-white border-bottom py-3 px-4 px-md-5">
+        <div class="container-fluid justify-content-end p-0">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav gap-2 gap-md-4 align-items-end text-end mt-3 mt-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-semibold active" aria-current="page" href="index.html">Beranda
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-semibold" href="an.html">Adit Nurdiansyah</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-semibold" href="ma.html">Muhammad Awwab</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
     <main>
@@ -31,27 +50,35 @@
 
         <section class="learning-material">
             <h2>Sumber Materi</h2>
-            <a class="learning-material-link" href="/learning-material/pertemuan-2-git-github-dasar.pdf" target="_blank"><img src="/assets/icons/file-download.png" alt="File Download Icon">Unduh Sumber Materi Git & GitHub Dasar</a>
-            <a class="learning-material-link" href="/learning-material/pertemuan-2-html-css-dasar.pdf" target="_blank"><img src="/assets/icons/file-download.png" alt="File Download Icon">Unduh Sumber Materi HTML & CSS Dasar</a>
+            <a class="learning-material-link" href="/learning-material/pertemuan-2-git-github-dasar.pdf"
+                target="_blank"><img src="/assets/icons/file-download.png" alt="File Download Icon">Unduh Sumber Materi
+                Git & GitHub Dasar</a>
+            <a class="learning-material-link" href="/learning-material/pertemuan-2-html-css-dasar.pdf"
+                target="_blank"><img src="/assets/icons/file-download.png" alt="File Download Icon">Unduh Sumber Materi
+                HTML & CSS Dasar</a>
         </section>
 
         <section class="material-introduction">
             <h2>Kata Pengantar Materi</h2>
-            <p>Materi pada pertemuan ini membahas dasar penggunaan Git dan GitHub sebagai alat untuk mengelola dan menyimpan proyek pemrograman.Selain itu, pada pertemuan juga membahas dasar HTML dan CSS sebagai fondasi untuk pembuatan dan pengembangan web</p>
+            <p>Materi pada pertemuan ini membahas dasar penggunaan Git dan GitHub sebagai alat untuk mengelola dan
+                menyimpan proyek pemrograman.Selain itu, pada pertemuan juga membahas dasar HTML dan CSS sebagai fondasi
+                untuk pembuatan dan pengembangan web</p>
         </section>
 
         <section class="group-profile">
             <h2>Profil Kelompok</h2>
             <section class="profiles">
                 <div class="profile-adit">
-                    <a href="an.html"><img src="assets/profile-pictures/profile-picture-aditnurdiansyah.png" alt="Adit Nurdiansyah Profile Picture"></a>
+                    <a href="an.html"><img src="assets/profile-pictures/profile-picture-aditnurdiansyah.png"
+                            alt="Adit Nurdiansyah Profile Picture"></a>
                     <p><a href="an.html"><span>Adit Nurdiansyah</span></a></p>
                     <p>3337250023</p>
                     <p>Informatika</p>
                 </div>
 
                 <div class="profile-awwab">
-                    <a href="ma.html"><img src="assets/profile-pictures/profile-picture-awwab.png" alt="Muhammad Awwab Profile Picture"></a>
+                    <a href="ma.html"><img src="assets/profile-pictures/profile-picture-awwab.png"
+                            alt="Muhammad Awwab Profile Picture"></a>
                     <p><a href="ma.html"><span>Muhammad Awwab</span></a></p>
                     <p>3337250137</p>
                     <p>Informatika</p>
@@ -63,5 +90,8 @@
     <footer>
         <p>&copy; 2026 Profile Website. All rights reserved.</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
