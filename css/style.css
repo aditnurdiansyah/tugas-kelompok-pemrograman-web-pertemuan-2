@@ -262,8 +262,27 @@ footer p {
         font-size: 24px;
     }
 
-    .group-profile .profiles {
+    .group-profile {
+        padding: 20px;
+    }
+
+    .profiles {
         flex-direction: column;
-        gap: 30px;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .profile-adit,
+    .profile-awwab {
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+    }
+
+    .profile-adit img,
+    .profile-awwab img {
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
     }
 }
